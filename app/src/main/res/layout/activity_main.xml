@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck_category"
+    android:orientation="vertical"
+    tools:context="com.example.android.footballsoccer.MainActivity">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/first_text_style" />
+
+    <EditText
+        android:id="@+id/edit_text_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/answer_height"
+        android:layout_margin="@dimen/question_margin"
+        android:layout_weight="@dimen/answer_weight"
+        android:text="@string/name_for_edit" />
+
+    <EditText
+        android:id="@+id/edit_text_second_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/answer_height"
+        android:layout_margin="@dimen/question_margin"
+        android:layout_weight="@dimen/answer_weight"
+        android:text="@string/second_name_for_edit" />
+
+    <Button style="@style/button_style_onclick"
+            android:id="@+id/submit_answers"/>
+
+
+</LinearLayout>

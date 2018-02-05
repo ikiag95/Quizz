@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck_category"
+    android:orientation="vertical"
+    tools:context="com.example.android.footballsoccer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout style="@style/linear_for_players">
+
+            <ImageView
+                android:id="@+id/first_image"
+                style="@style/image_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_one_q_1"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_two_q_1"
+                        style="@style/AmswerStyle1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_three_q_1"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_four_q_1"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_for_players">
+
+            <ImageView
+                android:id="@+id/second_image"
+                style="@style/image_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_one_q_2"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_two_q_2"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_three_q_2"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_four_q_2"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_for_players">
+
+            <ImageView
+                android:id="@+id/third_image"
+                style="@style/image_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_one_q_3"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_two_q_3"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_three_q_3"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_four_q_3"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_for_players">
+
+            <ImageView
+                android:id="@+id/fourth_image"
+                style="@style/image_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_one_q_4"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_two_q_4"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_three_q_4"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_four_q_4"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_for_players">
+
+
+            <ImageView
+                android:id="@+id/fifth_image"
+                style="@style/image_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_one_q_5"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_two_q_5"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/answer_three_q_5"
+                        style="@style/AmswerStyle1" />
+
+                    <Button
+                        android:id="@+id/answer_four_q_5"
+                        style="@style/AmswerStyle1" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/submit_answers"
+            style="@style/button_style" />
+    </LinearLayout>
+
+</ScrollView>

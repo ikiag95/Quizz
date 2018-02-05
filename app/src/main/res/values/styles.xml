@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#795548</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    //style for first page
+
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">@dimen/list_item_weight</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="HistoryQuestinStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/question_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:background">@color/category_history</item>
+    </style>
+
+    <style name="RulesQuestinStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/question_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:background">@color/category_rules</item>
+    </style>
+
+
+    <style name="WorldQuestinStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/question_margin</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:background">@color/category_world_winners</item>
+    </style>
+
+    <style name="AmswerStyle">
+        <item name="android:layout_width">@dimen/answer_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">@dimen/answer_weight</item>
+        <item name="android:layout_margin">@dimen/answer_margin</item>
+        <item name="android:textSize">@dimen/answer_size</item>
+    </style>
+
+    <style name="linear_for_players">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="linear_for_checkboxes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AmswerStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@dimen/answer_weight</item>
+        <item name="android:layout_marginBottom">@dimen/answer_margin</item>
+        <item name="android:layout_marginTop">@dimen/answer_margin</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:text">@string/button</item>
+        <item name="android:onClick">submitAnswer</item>
+    </style>
+
+    <style name="first_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:paddingTop">@dimen/question_margin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:text">@string/title</item>
+        <item name="android:textSize">@dimen/question_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_style_onclick">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:background">@color/button_color</item>
+        <item name="android:text">@string/button</item>
+    </style>
+
+
+</resources>

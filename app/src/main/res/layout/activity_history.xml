@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck_category"
+    android:orientation="vertical"
+    tools:context="com.example.android.footballsoccer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_one_history"
+                style="@style/HistoryQuestinStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_one_q_1"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_two_q_1"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_three_q_1"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_four_q_1"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_two_history"
+                style="@style/HistoryQuestinStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_one_q_2"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_two_q_2"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_three_q_2"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_four_q_2"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_three_history"
+                style="@style/HistoryQuestinStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_one_q_3"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_two_q_3"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_three_q_3"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_four_q_3"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_four_history"
+                style="@style/HistoryQuestinStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_one_q_4"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_two_q_4"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_three_q_4"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_four_q_4"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question_five_history"
+                style="@style/HistoryQuestinStyle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_one_q_5"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_two_q_5"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/answer_three_q_5"
+                    style="@style/AmswerStyle" />
+
+                <Button
+                    android:id="@+id/answer_four_q_5"
+                    style="@style/AmswerStyle" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_answers"
+            style="@style/button_style" />
+    </LinearLayout>
+
+</ScrollView>

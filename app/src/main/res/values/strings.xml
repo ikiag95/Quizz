@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Football Soccer</string>
+    <string name="history">History</string>
+    <string name="world_winners">world winners</string>
+    <string name="rules">rules</string>
+    <string name="players">players</string>
+    <string name="button">Submit</string>
+    <string name="title">Welcome to my soccer quizz!</string>
+    <string name="name_for_edit">Enter your name</string>
+    <string name="second_name_for_edit">Enter your surname</string>
+</resources>

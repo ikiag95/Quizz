@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.footballsoccer.CategoriesActivity">
+
+
+    <TextView
+        android:id="@+id/history_text_view"
+        style="@style/CategoryStyle"
+        android:background="@color/category_history"
+        android:text="@string/history" />
+
+    <TextView
+        android:id="@+id/rules_text_view"
+        style="@style/CategoryStyle"
+        android:background="@color/category_rules"
+        android:text="@string/rules" />
+
+    <TextView
+        android:id="@+id/world_text_view"
+        style="@style/CategoryStyle"
+        android:background="@color/category_world_winners"
+        android:text="@string/world_winners" />
+
+    <TextView
+        android:id="@+id/players_text_view"
+        style="@style/CategoryStyle"
+        android:background="@color/category_players"
+        android:text="@string/players" />
+
+
+</LinearLayout>
